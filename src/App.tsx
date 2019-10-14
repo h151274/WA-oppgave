@@ -49,35 +49,35 @@ class App extends React.Component<IProps, IState>{
   async getDataAPI() {
     let list: any = []
 
-    let res = await fetch("http://www.omdbapi.com/?i=tt1099212&apikey=9edb6465"); //Twilight
+    let res = await fetch("http://www.omdbapi.com/?i=tt1099212&apikey=9edb6465");
     let data = await res.json();
     list.push(data);
 
-    res = await fetch("http://www.omdbapi.com/?i=tt0120338&apikey=9edb6465"); //Titanic
+    res = await fetch("http://www.omdbapi.com/?i=tt0120338&apikey=9edb6465"); 
     data = await res.json();
     list.push(data);
 
-    res = await fetch("http://www.omdbapi.com/?i=tt0103639&apikey=9edb6465") //Aladdin
+    res = await fetch("http://www.omdbapi.com/?i=tt0103639&apikey=9edb6465") 
     data = await res.json();
     list.push(data);
 
-    res = await fetch("http://www.omdbapi.com/?i=tt1375666&apikey=9edb6465") // Inception
+    res = await fetch("http://www.omdbapi.com/?i=tt1375666&apikey=9edb6465") 
     data = await res.json();
     list.push(data);
 
-    res = await fetch("http://www.omdbapi.com/?i=tt6172126&apikey=9edb6465") // Intouchables
+    res = await fetch("http://www.omdbapi.com/?i=tt6172126&apikey=9edb6465") 
     data = await res.json();
     list.push(data);
 
-    res = await fetch("http://www.omdbapi.com/?i=tt0096895&apikey=9edb6465") // Intouchables
+    res = await fetch("http://www.omdbapi.com/?i=tt0096895&apikey=9edb6465") 
     data = await res.json();
     list.push(data);
 
-    res = await fetch("http://www.omdbapi.com/?i=tt0462590&apikey=9edb6465") // Intouchables
+    res = await fetch("http://www.omdbapi.com/?i=tt0462590&apikey=9edb6465") 
     data = await res.json();
     list.push(data);
 
-    res = await fetch("http://www.omdbapi.com/?i=tt0314331&apikey=9edb6465") // Intouchables
+    res = await fetch("http://www.omdbapi.com/?i=tt0314331&apikey=9edb6465")
     data = await res.json();
     list.push(data);
 
